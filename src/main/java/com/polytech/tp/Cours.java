@@ -10,8 +10,7 @@ public class Cours implements ICours {
     private String niveau;
     private boolean necessiteProjecteur;
 
-    
-    public Cours(String matiere, String enseignant, String salle, String date, 
+    public Cours(String matiere, String enseignant, String salle, String date,
                  String heureDebut, boolean estOptionnel, String niveau, boolean necessiteProjecteur) {
         this.matiere = matiere;
         this.enseignant = enseignant;
@@ -30,10 +29,9 @@ public class Cours implements ICours {
 
     @Override
     public double getDuree() {
-        return 1.5; 
+        return 1.5;
     }
-    
-    
+
     public String getMatiere() { return matiere; }
     public String getEnseignant() { return enseignant; }
 }
